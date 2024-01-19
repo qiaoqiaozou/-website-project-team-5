@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DewDrop Brew</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #003e40;
+            color: #e8ccb0;
+        }
+
+        .part1 {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #e8ccb0;
+            padding: 1em;
+            height: 100px;
+        }
+
+        .head {
+            width: 300px;
+            padding-left: 40px;
+            line-height: 100px;
+            flex: 1;
+        }
+
+        .nav {
+            display: flex;
+            align-items: center;
+            font-weight: 700;
+            flex: 2;
+            margin: 0 3em;
+        }
+
+        nav a {
+            margin: 0 3em;
+        }
+
+        nav a,
+        .button a,
+        .button2 a,
+        .end1 a,
+        .end2 a,
+        .end3 a {
+            text-decoration: none;
+            color: #003e40;
+        }
+
+        .button a,
+        .button2 a {
+            color: #e8ccb0;
+        }
+
+        .button2 a {
+            color: #003e40;
+        }
+
+        section {
+            display: flex;
+            height: 600px;
+        }
+
+        .word {
+            text-align: center;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        .coffee {
+            width: 200px;
+            flex: 1;
+            background-image: url(images/HomePageImage1.jpg);
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        .big {
+            font-size: 36px;
+            color: white;
+            font-weight: 900;
+        }
+
+        .small {
+            font-size: 24px;
+        }
+
+        .button,
+        .button2 {
+            background-color: #003e40;
+            padding: 10px 15px;
+            border-radius: 10px;
+            line-height: 1;
+            font-weight: 700;
+            font-size: 18px;
+            display: inline-block;
+        }
+
+        .button2 {
+            background-color: #e8ccb0;
+            color: #003e40;
+        }
+
+        .end1,
+        .end2,
+        .end3 {
+            flex: 2;
+        }
+
+        .link {
+            text-decoration: none;
+            color: #003e40;
+        }
+
+        .link:hover {
+            color: #463d35;
+        }
+
+        div a:hover,
+        nav a:hover,
+        .button a:hover,
+        .button2 a:hover {
+            color: #a35c2d;
+        }
+    </style>
+</head>
+
+<body>
+    <footer class="part1">
+        <header class="head">
+            <a href="HomePage.html"><img src="images/icon.jpg" /></a>
+        </header>
+        <nav class="nav">
+            <a href="#home" class="link">Home</a>
+            <a href="#menu" class="link">Menu</a>
+            <a href="#about Us" class="link">About Us</a>
+            <a href="#contact" class="link">Contact</a>
+        </nav>
+        <button class="button"><a href="#" class="link">Buy Now</a></button>
+    </footer>
+    <section>
+        <div class="word">
+            <p class="big">Good Coffee, Good Taste, For Good People</p>
+            <p class="small">Here in this cold winter season, you can get a great cup of coffee in your hand and talk
+                with your friends.</p>
+            <button class="button2"><a href="#" class="link">Read More</a></button>
+        </div>
+        <div class="coffee"></div>
+    </section>
+    <footer class="part1">
+        <div class="end1">
+            <a href="#" class="link">
+                <p>DewDrop Brew Coffee</p>
+            </a>
+        </div>
+        <div class="end2">
+            <a href="#" class="link">
+                <p>Follow Us</p>
+            </a>
+        </div>
+        <div class="end3">
+            <a href="#" class="link">
+                <p>NO.23, Season Street, Helsinki</p>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
