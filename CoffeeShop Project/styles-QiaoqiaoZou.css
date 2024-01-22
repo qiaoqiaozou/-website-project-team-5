@@ -34,7 +34,7 @@ body {
     font-weight: 700;
     flex: 2;
     margin: 0 3em;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 nav a {
@@ -123,58 +123,84 @@ nav a:hover,
 }
 
 
-.menu-text{
+.menu-text {
     color: white !important;
     font-size: 22px !important;
     font-weight: normal !important;
 }
-.menu-img1{
-height: auto;
-width: 100%;
+
+.menu-img1 {
+    height: auto;
+    width: 100%;
 }
-.part-menu-text{
-    margin:20px 110px 20px 110px;
+
+.part-menu-text {
+    margin: 20px 110px 20px 110px;
 }
-.part3{
-    display:flex;
+
+.part3 {
+    display: flex;
     /*margin: 0 110px 20px 110px;*/
     justify-content: center;
     align-items: center;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-color: #e8ccb0; 
+    background-color: #e8ccb0;
     padding: 10px;
     z-index: 100;
 }
-.m1, .m2,.m3, .m4{
+
+.m1,
+.m2,
+.m3,
+.m4 {
     font-size: 18px;
     color: #003e40;
-    padding:40px;
-    text-decoration:none;
+    padding: 40px;
+    text-decoration: none;
 }
-.part4, .part5,.part6,.part7{
+
+.part4,
+.part5,
+.part6,
+.part7 {
     width: 1023px;
-    margin:  20px 110px auto;
+    margin: 20px 110px auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
-    gap:6px;
+    gap: 6px;
 }
-.d1 img,.d2 img,.d3 img,
-.c1 img,.c2 img,.c3 img,.c4 img,.c5 img,
-.b1 img,.b2 img,.b3 img,
-.o1 img,.o2 img,.o3 img{
+
+.d1 img,
+.d2 img,
+.d3 img,
+.c1 img,
+.c2 img,
+.c3 img,
+.c4 img,
+.c5 img,
+.b1 img,
+.b2 img,
+.b3 img,
+.o1 img,
+.o2 img,
+.o3 img {
     width: 316px;
     height: 416px;
     margin-bottom: 10px;
 }
 
-.c-t,.d-t,.b-t,.o-t{
-    margin-left:120px;
-    font-size:24px;
+.c-t,
+.d-t,
+.b-t,
+.o-t {
+    margin-left: 120px;
+    font-size: 24px;
 }
+
 .linkMethod {
     background-color: #A25C2E;
     height: 47px;
@@ -182,16 +208,17 @@ width: 100%;
     position: relative;
 
 }
-.linkMethod:hover{
+
+.linkMethod:hover {
     background-color: white;
 
 }
 
-.linkMethod:hover .icon2{
+.linkMethod:hover .icon2 {
     color: #A25C2E;
 }
 
-footer{
+footer {
     color: #003e40;
     background-color: #E8CCB0;
 
@@ -206,36 +233,29 @@ footer{
     position: relative;
 
 }
-.linkMethod2:hover{
+
+.linkMethod2:hover {
     background-color: white;
 }
 
-footer{
+footer {
 
     height: 200px;
     position: relative;
 
 }
 
-@media  (max-width: 768px){
-    footer{
+@media (max-width: 768px) {
+    footer {
         height: 500px;
         padding-top: 10px;
 
     }
+
     .nav {
         flex-direction: column;
         align-items: center;
         text-align: center;
-      }
-    
+    }
+
 }
-
-
-
-
-
-
-
-
-
