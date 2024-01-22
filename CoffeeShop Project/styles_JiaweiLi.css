@@ -1,18 +1,14 @@
-.part1 {
 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #E8CCB0;
-    padding: 1em;
-    height: 100px;
+body{
+    font-family: Arial, sans-serif;
+    background-color: #173D3F;
+    color:white;
 }
 
-.head {
-    width: 300px;
-    padding-left: 40px;
-    line-height: 100px;
-    flex: 1;
+.header {
+
+   background-color: #E8CCB0;
+
 }
 
 .nav {
@@ -20,7 +16,6 @@
     display: flex;
     align-items: center;
     font-weight: 700;
-    flex: 2;
     margin: 0 3em;
 }
 
@@ -37,11 +32,7 @@ nav a,
     text-decoration: none;
     color: #003e40;
 }
-body{
-    font-family: Arial, sans-serif;
-    background-color: #173D3F;
-    color:white;
-}
+
 
 .words{
     font-size: 36px;
@@ -114,7 +105,7 @@ footer{
     }
 }
 
-@media (min-height: 900px){
+@media (min-height: 967px){
     footer{
         position: absolute;
         bottom: 0;
