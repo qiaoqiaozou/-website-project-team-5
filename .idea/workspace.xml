@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16e7ebcb-1f12-4ab7-90e8-aaf7c3cf27a2" name="Changes" comment="" />
+    <list default="true" id="16e7ebcb-1f12-4ab7-90e8-aaf7c3cf27a2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +33,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Jasmine/Documents/GitHub/-website-project-team-5",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Jasmine/Documents/GitHub/-website-project-team-5/CoffeeShop Project",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -49,7 +53,9 @@
       <option name="presentableId" value="Default" />
       <updated>1705736005178</updated>
       <workItem from="1705736006216" duration="650000" />
-      <workItem from="1705908679899" duration="7062000" />
+      <workItem from="1705908679899" duration="7378000" />
+      <workItem from="1705932032950" duration="29000" />
+      <workItem from="1705932062570" duration="53000" />
     </task>
     <servers />
   </component>
