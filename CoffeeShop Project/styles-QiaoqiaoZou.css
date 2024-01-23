@@ -319,7 +319,7 @@ footer {
      .c1 img, .c2 img, .c3 img, .c4 img, .c5 img,
      .b1 img, .b2 img, .b3 img,
      .o1 img, .o2 img, .o3 img {
-         width: 80%; 
+         width: 100%; 
          height: auto; 
          margin-bottom: 10px;
      }
