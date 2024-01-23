@@ -36,11 +36,11 @@ body {
     font-size: 18px;
 }
 
-nav a {
+.nav a {
     margin: 0 3em;
 }
 
-nav a,
+.nav a,
 .button a,
 .button2 a,
 .end1 a,
