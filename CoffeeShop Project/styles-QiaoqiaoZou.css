@@ -14,7 +14,6 @@ body {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    padding: 10px;
     z-index: 100;
 }
 
@@ -24,6 +23,7 @@ body {
     line-height: 80px;
     flex: 1;
     padding-bottom: 20px;
+    margin: 0 40px 0 50px;
 }
 
 .nav {
@@ -56,6 +56,9 @@ nav a,
 
 .button2 a {
     color: #003e40;
+}
+.button{
+    margin: 0 60px 0 40px;
 }
 
 section {
@@ -133,7 +136,7 @@ nav a:hover,
 }
 
 .part-menu-text {
-    margin: 20px 110px 20px 110px;
+    margin: 80px 110px 0 110px;
 }
 
 .part3 {
@@ -165,7 +168,7 @@ nav a:hover,
 .part6,
 .part7 {
     width: 1023px;
-    margin:  20px 110px auto;
+    margin:  20px auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
@@ -245,7 +248,7 @@ footer {
 }
 
 
-@media  (max-width: 932px){
+@media  (max-width: 768px){
      footer{
          height: 500px;
          padding-top: 10px;
@@ -256,6 +259,9 @@ footer {
          align-items: center;
          text-align: center;
        }*/
+       .part-menu-text {
+        margin: 20px 60px;
+    }
      p{
          font-size: 0.8em;
      }
@@ -290,13 +296,8 @@ footer {
     }
  
      .menu-img1 {
-         width: 100%;
+         width: 200%;
      }
- 
-     .part-menu-text {
-         margin: 20px 10px; 
-     }
- 
      .part3 {
          margin: 0; 
      }
@@ -324,7 +325,7 @@ footer {
      }
  
      .c-t, .d-t, .b-t, .o-t {
-         margin-left: 10px; 
+         margin-left: 120px; 
          font-size: 20px; 
      }
  
@@ -338,7 +339,7 @@ footer {
  }
  }
  
- @media  (min-width: 933px)and (max-width: 1230px){
+ @media  (min-width: 769px)and (max-width: 1230px){
      /*footer{
           height: 500px;
           padding-top: 10px;
@@ -349,7 +350,9 @@ footer {
           align-items: center;
           text-align: center;
         }*/
-     
+        .part-menu-text {
+            margin: 20px 90px 20px;
+        }
       p{
           font-size: 0.8em;
       }
@@ -360,11 +363,6 @@ footer {
       .menu-img1 {
           width: 100%;
       }
-  
-      .part-menu-text {
-          margin: 20px 10px; 
-      }
-  
       .part3 {
           margin: 0; 
       }
@@ -393,7 +391,7 @@ footer {
       }
   
       .c-t, .d-t, .b-t, .o-t {
-          margin-left: 10px; 
+          margin-left: 120px; 
           font-size: 20px; 
       }
   }
