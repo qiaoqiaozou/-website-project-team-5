@@ -143,10 +143,11 @@ nav a:hover,
     align-items: center;
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
+    top: 120px;
     background-color: #e8ccb0;
     padding: 10px;
     z-index: 100;
+    margin-top: 120px;
 }
 
 .m1,
@@ -260,8 +261,11 @@ footer {
      }
      .part1 {
         flex-direction: column; 
-        height: auto; 
-        padding: 10px; 
+        height: 300px; 
+        padding: 6px; 
+    }
+    .part3{
+        top: 300px;
     }
 
     .head {
