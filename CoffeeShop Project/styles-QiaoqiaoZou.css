@@ -32,14 +32,14 @@ body {
     font-weight: 700;
     flex: 2;
     margin: 0 3em;
-    font-size: 16px;
+    font-size: 18px;
 }
 
-nav a {
+.nav a {
     margin: 0 3em;
 }
 
-nav a,
+.nav a,
 .button a,
 .button2 a,
 .end1 a,
@@ -49,44 +49,16 @@ nav a,
     color: #003e40;
 }
 
-.button a,
-.button2 a {
+.button a{
     color: #e8ccb0;
 }
 
-.button2 a {
-    color: #003e40;
-}
 .button{
     margin: 0 60px 0 40px;
 }
 
-section {
-    display: flex;
-    height: 600px;
-}
-
-.word {
-    text-align: center;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-}
-
-.coffee {
-    width: 200px;
-    flex: 1;
-    background-image: url(images/HomePageImage1.jpg);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.button,
-.button2 {
+.button
+{
     background-color: #003e40;
     padding: 10px 15px;
     border-radius: 10px;
@@ -96,16 +68,6 @@ section {
     display: inline-block;
 }
 
-.button2 {
-    background-color: #e8ccb0;
-    color: #003e40;
-}
-
-.end1,
-.end2,
-.end3 {
-    flex: 2;
-}
 
 .link {
     text-decoration: none;
@@ -118,8 +80,7 @@ section {
 
 div a:hover,
 nav a:hover,
-.button a:hover,
-.button2 a:hover {
+.button a:hover {
     color: #a35c2d;
 }
 
@@ -203,6 +164,7 @@ nav a:hover,
     font-size: 24px;
 }
 
+
 .linkMethod {
     background-color: #A25C2E;
     height: 47px;
@@ -223,6 +185,8 @@ nav a:hover,
 footer {
     color: #003e40;
     background-color: #E8CCB0;
+    height: 200px;
+    position: relative;
 
 }
 
@@ -240,12 +204,7 @@ footer {
     background-color: white;
 }
 
-footer {
 
-    height: 200px;
-    position: relative;
-
-}
 
 
 @media  (max-width: 768px){
@@ -269,6 +228,7 @@ footer {
         flex-direction: column; 
         height: 300px; 
         padding: 6px; 
+        
     }
     .part3{
         top: 300px;
@@ -284,7 +244,7 @@ footer {
     .nav {
         flex-direction: column; 
         align-items: center; 
-        margin: 10px 0; 
+        margin:0; 
     }
 
     nav a {
@@ -292,7 +252,7 @@ footer {
     }
 
     .button {
-        margin-top: 10px; 
+        margin-top:0; 
     }
  
      .menu-img1 {

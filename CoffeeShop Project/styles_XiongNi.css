@@ -6,6 +6,10 @@
     background-color: #E8CCB0;
     padding: 1em;
     height: 120px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .head {
@@ -14,6 +18,7 @@
     padding-bottom: 20px;
     line-height: 80px;
     flex: 1;
+    margin: 0 40px 0 50px;
 }
 
 .container{
@@ -28,14 +33,14 @@
     font-weight: 700;
     flex: 2;
     margin: 0 3em;
-    /*font-size: 18px;*/
+    font-size: 18px;
 }
 
-nav a {
+.nav a {
     margin: 0 3em;
 }
 
-nav a,
+.nav a,
 .button a,
 .button2 a,
 .end1 a,
@@ -44,6 +49,17 @@ nav a,
     text-decoration: none;
     color: #003e40;
 }
+.button a,
+.button2 a {
+    color: #e8ccb0;
+}
+.button2 a {
+    color: #003e40;
+}
+.button{
+    margin: 0 60px 0 40px;
+}
+
 body{
     font-family: Arial, sans-serif;
     background-color: #173D3F;
@@ -71,10 +87,19 @@ h1 {
     display: inline-block;
 }
 
-.button .link {
+.link {
     color: #e8ccb0;
     text-decoration: none;
 }
+.link:hover {
+    color: #463d35;
+}
+div a:hover,
+nav a:hover,
+.button a:hover{
+    color: #a35c2d;
+}
+
 
 .linkMethod {
     background-color: #A25C2E;
@@ -87,9 +112,9 @@ h1 {
     background-color: white;
 
 }
-.icon2{
+/*.icon2{
     color: white;
-}
+}*/
 .linkMethod:hover .icon2{
     color: #A25C2E;
 }
@@ -97,12 +122,13 @@ h1 {
 footer{
     color: #003e40;
     background-color: #E8CCB0;
-
+    height: 200px;
+    position: relative;
 }
 
-.eca{
+/*.eca{
     margin-left: 10px
-}
+}*/
 
 .linkMethod2 {
 
@@ -116,12 +142,6 @@ footer{
     background-color: white;
 }
 
-footer{
-
-    height: 200px;
-    position: relative;
-
-}
 
 @media  (max-width: 768px){
     footer{
@@ -137,5 +157,71 @@ footer{
         bottom: 0;
     }
 }
+@media  (max-width: 768px){
+    footer{
+        height: 500px;
+        padding-top: 10px;
+
+    }
+    /*.nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }*/
+    
+    .part1 {
+       flex-direction: column; 
+       height: 300px; 
+       padding: 6px; 
+       
+   }
+
+
+   .head {
+       width: 100%; 
+       padding: 10px; 
+       line-height: normal; 
+       text-align: center; 
+   }
+
+   .nav {
+       flex-direction: column; 
+       align-items: center; 
+       margin:0; 
+   }
+
+   nav a {
+       margin: 5px 0;
+   }
+
+   .button {
+       margin-top:0; 
+   }
+
+
+.linkMethod2 {
+
+    height: auto;
+    width: auto;
+    margin-right: 5px;
+    position: relative;
+}
+}
+
+@media  (min-width: 769px)and (max-width: 1230px){
+    /*footer{
+         height: 500px;
+         padding-top: 10px;
+ 
+     }*/
+     /*.nav {
+         flex-direction: column;
+         align-items: center;
+         text-align: center;
+       }*/
+     .part1 {
+         height: 155px;
+     }
+ }
 
 
