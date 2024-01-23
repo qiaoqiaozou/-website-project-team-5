@@ -14,7 +14,6 @@ body {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    padding: 10px;
     z-index: 100;
 }
 
@@ -23,8 +22,8 @@ body {
     padding-left: 20px;
     line-height: 80px;
     flex: 1;
-
     padding-bottom: 20px;
+    margin: 0 40px 0 50px;
 }
 
 .nav {
@@ -57,6 +56,9 @@ nav a,
 
 .button2 a {
     color: #003e40;
+}
+.button{
+    margin: 0 60px 0 40px;
 }
 
 section {
@@ -134,7 +136,7 @@ nav a:hover,
 }
 
 .part-menu-text {
-    margin: 20px 110px 20px 110px;
+    margin: 80px 110px 0 110px;
 }
 
 .part3 {
@@ -144,10 +146,11 @@ nav a:hover,
     align-items: center;
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
+    top: 120px;
     background-color: #e8ccb0;
     padding: 10px;
     z-index: 100;
+    margin-top: 120px;
 }
 
 .m1,
@@ -165,7 +168,7 @@ nav a:hover,
 .part6,
 .part7 {
     width: 1023px;
-    margin: 20px 110px auto;
+    margin:  20px auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
@@ -244,17 +247,171 @@ footer {
 
 }
 
-@media (max-width: 768px) {
-    footer {
-        height: 500px;
-        padding-top: 10px;
 
+@media  (max-width: 768px){
+     footer{
+         height: 500px;
+         padding-top: 10px;
+ 
+     }
+     /*.nav {
+         flex-direction: column;
+         align-items: center;
+         text-align: center;
+       }*/
+       .part-menu-text {
+        margin: 20px 60px;
+    }
+     p{
+         font-size: 0.8em;
+     }
+     .part1 {
+        flex-direction: column; 
+        height: 300px; 
+        padding: 6px; 
+    }
+    .part3{
+        top: 300px;
+    }
+
+    .head {
+        width: 100%; 
+        padding: 10px; 
+        line-height: normal; 
+        text-align: center; 
     }
 
     .nav {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+        flex-direction: column; 
+        align-items: center; 
+        margin: 10px 0; 
     }
 
-}
+    nav a {
+        margin: 5px 0;
+    }
+
+    .button {
+        margin-top: 10px; 
+    }
+ 
+     .menu-img1 {
+         width: 200%;
+     }
+     .part3 {
+         margin: 0; 
+     }
+ 
+     .m1, .m2, .m3, .m4 {
+         padding: 10px; 
+     }
+ 
+     .part4, .part5, .part6, .part7 {
+         width: 60%; 
+         margin: 20px auto; 
+         display: grid;
+         grid-template-columns: 1fr; 
+         justify-content: center;
+         align-items: center;
+     }
+ 
+     .d1 img, .d2 img, .d3 img,
+     .c1 img, .c2 img, .c3 img, .c4 img, .c5 img,
+     .b1 img, .b2 img, .b3 img,
+     .o1 img, .o2 img, .o3 img {
+         width: 100%; 
+         height: auto; 
+         margin-bottom: 10px;
+     }
+ 
+     .c-t, .d-t, .b-t, .o-t {
+         margin-left: 120px; 
+         font-size: 20px; 
+     }
+ 
+ 
+ .linkMethod2 {
+ 
+     height: auto;
+     width: auto;
+     margin-right: 5px;
+     position: relative;
+ }
+ }
+ 
+ @media  (min-width: 769px)and (max-width: 1230px){
+     /*footer{
+          height: 500px;
+          padding-top: 10px;
+  
+      }*/
+      /*.nav {
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+        }*/
+        .part-menu-text {
+            margin: 20px 90px 20px;
+        }
+      p{
+          font-size: 0.8em;
+      }
+      .part1 {
+          height: 155px;
+      }
+  
+      .menu-img1 {
+          width: 100%;
+      }
+      .part3 {
+          top: 150px;
+      }
+  
+      .m1, .m2, .m3, .m4 {
+          padding: 10px; 
+      }
+  
+      .part4, .part5, .part6, .part7 {
+          width: 80%; 
+          margin: 20px auto; 
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          justify-content: center;
+          align-items: center;
+          gap:6px;
+      }
+  
+      .d1 img, .d2 img, .d3 img,
+      .c1 img, .c2 img, .c3 img, .c4 img, .c5 img,
+      .b1 img, .b2 img, .b3 img,
+      .o1 img, .o2 img, .o3 img {
+          width: 90%; 
+          height: auto; 
+          margin-bottom: 10px;
+      }
+  
+      .c-t, .d-t, .b-t, .o-t {
+          margin-left: 120px; 
+          font-size: 20px; 
+      }
+  }
+  
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
