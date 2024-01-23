@@ -200,7 +200,7 @@ footer {
         bottom: 0;
     }
 }*/
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     footer {
         height: 500px;
         padding-top: 10px;
@@ -254,7 +254,7 @@ footer {
     }
 }
 
-@media (min-width: 769px)and (max-width: 1023px) {
+@media (min-width: 601px)and (max-width: 1024px) {
 
     /*footer{
          height: 500px;
