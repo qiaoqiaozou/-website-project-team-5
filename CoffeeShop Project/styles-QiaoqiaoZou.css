@@ -357,14 +357,14 @@ footer {
           font-size: 0.8em;
       }
       .part1 {
-          height: auto;
+          height: 155px;
       }
   
       .menu-img1 {
           width: 100%;
       }
       .part3 {
-          margin: 0; 
+          top: 150px;
       }
   
       .m1, .m2, .m3, .m4 {
