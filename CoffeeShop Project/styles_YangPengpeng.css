@@ -44,7 +44,6 @@ footer {
 
 .icon::after {
     content: "3";
-    /* 这里可以设置数字的值 */
     position: absolute;
     top: 0;
     right: 0;
