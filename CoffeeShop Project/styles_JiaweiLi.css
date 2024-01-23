@@ -204,6 +204,8 @@ footer {
     footer {
         height: 500px;
         padding-top: 10px;
+        position: absolute;
+        bottom: 0;
 
     }
 
